@@ -1,0 +1,4 @@
+squeeze
+=======
+
+Django asset pipeliner
