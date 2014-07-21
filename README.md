@@ -41,5 +41,3 @@ To embed a defined package into your template, you can use the included template
 {% load squeeze %}
 {% render_package 'public' %}
 ```
-
-Statuc files within your package will be included in parallel when `DEBUG` is `True` and compressed into a single JavaScript or CSS file when in production.
