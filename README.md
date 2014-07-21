@@ -20,7 +20,7 @@ SQUEEZE = {
         ),
 
         'admin': (
-            'css/admin.css',
+            'css/admin.scss',
             'js/admin.js',
         ),
     }
@@ -35,11 +35,11 @@ You will also need to add the following to your urlpatterns:
 
 ###Usage
 
-To embed a defined package into your template, you can use the included templatetag
+To embed a defined package into your template, you can use the included templatetag:
 
 ```html
 {% load squeeze %}
 {% render_package 'public' %}
 ```
 
-Files within your package included in parallel when `DEBUG` is `True` and compressed into a single JavaScript or CSS file when in production.
+Statuc files within your package will be included in parallel when `DEBUG` is `True` and compressed into a single JavaScript or CSS file when in production.
