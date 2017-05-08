@@ -1,8 +1,8 @@
-##squeeze
+## squeeze
 
 Squeeze is a simple drop-in Django asset pipeliner
 
-###Installation
+### Installation
 
 Add squeeze to your project (and add `'squeeze'` to your INSTALLED_APPS). From there, you can define a `SQUEEZE` object in your project's settings file the defines any static media packages used.
 
@@ -33,7 +33,7 @@ You will also need to add the following to your urlpatterns:
   url(r'^media/', include('squeeze.urls')),
 ```
 
-###Usage
+### Usage
 
 To embed a defined package into your template, you can use the included templatetag:
 
